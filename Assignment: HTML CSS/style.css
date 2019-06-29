@@ -1,0 +1,30 @@
+.outer_content {
+	margin-top:20px;
+	background-color:pink;
+	width:75%;
+}
+.inner_content {
+	width:50%;
+	left:12.25%;	
+	margin: 0 auto;
+	background-color:cyan;
+}
+
+table {
+	font-family:verdana;
+	border-collapse:collapse;
+	width:100%;
+}
+
+td,th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(2,4,6) {
+	background-color:gray;
+}
+tr:nth-child(3,5) {
+	background-color:green;
+}
